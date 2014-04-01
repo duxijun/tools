@@ -14,6 +14,7 @@ echo alias vi=vim >>~/.bash_profile
 unalias cp
 #移动vim配置文件到用户目录
 rm -rf /root/.vim
+git clone https://github.com/duxijun/vim.git vim
 cp -f ./vim ~/.vim  -rf
 ln -sf /root/.vim/.vimrc /root
 #修改打开文件数目
