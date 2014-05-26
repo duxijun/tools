@@ -12,6 +12,11 @@ done
 echo alias vi=vim >>~/.bash_profile 
 
 #unalias cp
+
+#配置github
+git config --global user.name "duxijun"
+git config --global user.email "duxijun0703@gmail.com"
+
 #移动vim配置文件到用户目录
 rm -rf /root/.vim
 git clone https://github.com/duxijun/vim.git vim
