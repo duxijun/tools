@@ -21,10 +21,12 @@ git submodule update
 cd ..
 cp -f ./vim ~/.vim  -rf
 ln -sf /root/.vim/.vimrc /root
+rm -rf vim
 #修改打开文件数目
 cp -f ./limits.conf /etc/security/limits.conf  
 #修改core文件格式
 echo "./core.%e.%p" > /proc/sys/kernel/core_pattern
+
 
 #使用测试小程序
 make
