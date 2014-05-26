@@ -11,10 +11,14 @@ done
 #打开vi时默认打开vim,以后登入root时生效
 echo alias vi=vim >>~/.bash_profile 
 
-unalias cp
+#unalias cp
 #移动vim配置文件到用户目录
 rm -rf /root/.vim
 git clone https://github.com/duxijun/vim.git vim
+cd vim
+git submodule init
+git submodule update
+cd ..
 cp -f ./vim ~/.vim  -rf
 ln -sf /root/.vim/.vimrc /root
 #修改打开文件数目
