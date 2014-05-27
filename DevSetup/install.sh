@@ -1,6 +1,6 @@
 #!/bin/bash
 CurrentDir=$(pwd)
-yumArray=(vim gcc make gdb ctags-etags.x86_64 cscope svn automake libtool  glib2.x86_64 glib2-devel.x86_64 git tunctl readline-devel zlib-devel.x86_64)
+yumArray=(vim gcc make gdb ctags-etags.x86_64 cscope svn automake libtool  glib2.x86_64 glib2-devel.x86_64 git tunctl readline-devel zlib-devel.x86_64 pyflakes)
 a_len=${#yumArray[@]}
 for ((i=0; i<$a_len; ++i))
 do
