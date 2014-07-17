@@ -72,7 +72,7 @@ install_samba()
 
 
 
-install_samba
+#install_samba
 
 
 
