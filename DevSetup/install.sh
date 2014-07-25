@@ -1,6 +1,6 @@
 #!/bin/bash
 CurrentDir=$(pwd)
-yumArray=(vim gcc make gdb ctags-etags.x86_64 cscope svn automake libtool  glib2.x86_64 glib2-devel.x86_64 git tunctl readline-devel zlib-devel.x86_64 pyflakes)
+yumArray=(vim gcc make gdb ctags-etags.x86_64 cscope svn automake libtool  glib2.x86_64 glib2-devel.x86_64 lrzsz tunctl readline-devel zlib-devel.x86_64 pyflakes)
 a_len=${#yumArray[@]}
 for ((i=0; i<$a_len; ++i))
 do
@@ -26,7 +26,7 @@ git submodule update
 cd ..
 cp -f ./vim ~/.vim  -rf
 ln -sf /root/.vim/.vimrc /root
-rm -rf vim
+#rm -rf vim
 #修改打开文件数目
 cp -f ./limits.conf /etc/security/limits.conf  
 #修改core文件格式
