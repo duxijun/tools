@@ -10,7 +10,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  wangfan (), wangfan1985@gmail.com
+ *         Author:  duxijun0703@gmail.com
  *        Company:  
  *
  * =====================================================================================
