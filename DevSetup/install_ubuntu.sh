@@ -1,7 +1,7 @@
 #!/bin/bash
-MY_HOME_PATH=/home/duxj
+MY_HOME_PATH=/home/dxj
 CurrentDir=$(pwd)
-yumArray=(vim gcc make gdb ctags-etags.x86_64 cscope svn automake libtool  glib2.x86_64 glib2-devel.x86_64 lrzsz tunctl readline-devel zlib-devel.x86_64 pyflakes)
+yumArray=(vim gcc g++ make cmake  gdb ctags-etags.x86_64 cscope svn automake libtool  glib2.x86_64 glib2-devel.x86_64 lrzsz tunctl readline-devel zlib-devel.x86_64 pyflakes)
 a_len=${#yumArray[@]}
 for ((i=0; i<$a_len; ++i))
 do
@@ -29,9 +29,9 @@ cp -f ./vim ~/.vim  -rf
 ln -sf ${MY_HOME_PATH}/.vim/.vimrc ${MY_HOME_PATH}
 #rm -rf vim
 #修改打开文件数目
-cp -f ./limits.conf /etc/security/limits.conf  
+sudo cp -f ./limits.conf /etc/security/limits.conf  
 #修改core文件格式
-echo "./core.%e.%p" > /proc/sys/kernel/core_pattern
+sudo echo "./core.%e.%p" > /proc/sys/kernel/core_pattern
 
 
 #使用测试小程序
@@ -53,7 +53,7 @@ make clean
 #安装samba
 install_samba()
 {
-	yum install samba -y
+	sudo apt-get install samba -y
 	cd $CurrentDir
 	setenforce 0
 	cp -f ./config /etc/selinux/ 
@@ -64,8 +64,8 @@ install_samba()
 	chkconfig smb on
 
 	#echo 请输入Samba的密码
-	smbpasswd -a duxj
-	smbpasswd -e duxj
+	smbpasswd -a dxj
+	smbpasswd -e dxj
 	#echo Samba安装完成 请用用户名root登陆
 
 }
