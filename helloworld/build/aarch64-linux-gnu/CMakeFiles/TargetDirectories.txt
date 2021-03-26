@@ -1,0 +1,3 @@
+/home/duxijun/p2/duxijun/project/helloworld/build/aarch64-linux-gnu/CMakeFiles/rebuild_cache.dir
+/home/duxijun/p2/duxijun/project/helloworld/build/aarch64-linux-gnu/CMakeFiles/hello.dir
+/home/duxijun/p2/duxijun/project/helloworld/build/aarch64-linux-gnu/CMakeFiles/edit_cache.dir

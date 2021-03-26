@@ -1,0 +1,1 @@
+aarch64-linux-gnu-g++  -DFILENAME='"$(notdir $(abspath $<))"'  -std=gnu++11 -fpermissive -Wreturn-type -g  -rdynamic CMakeFiles/hello.dir/src/main.c.o  -o ../../out/aarch64-linux-gnu/hello  -L/home/duxijun/p2/duxijun/project/helloworld/../Deps/libs -Wl,-rpath,/home/duxijun/p2/duxijun/project/helloworld/../Deps/libs -lpthread 

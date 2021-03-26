@@ -1,0 +1,40 @@
+1. 目录结构
+
+├── build
+├── cmake
+│?? └── toolchain_hisiv200.cmake
+├── CMakeLists.txt
+├── inc
+│?? ├── t1.h
+│?? └── t2.h
+├── lib
+├── Makefile
+├── modules
+├── out
+├── ProjectMetadata.cmake
+├── readme
+├── src
+│?? ├── main.c
+│?? ├── t1.c
+│?? └── t2.c
+└── test
+    ├── test1.c
+    └── test2.c
+
+build：编译生成的中间目录。
+cmake：存放cmake中间文件。
+inc：头文件存放目录。
+lib：依赖库存放目录。
+modules：子模块工程存放目录。
+out：编译结果输出目录。
+src：源文件目录。
+test：测试程序目录。
+
+2. 使用方法：
+当前目录下执行make或者make clean。
+交叉编译直接更改参考Makefile中PLATFORM_TYPE的定义。
+
+3. 注意事项：
+3.1 具体的更改方法参见ProjectMetadata.cmake文件。
+3.2 具体开发人员更改的文件应该仅局限于src、inc、test、modules、ProjectMetadata.cmake，不应更改Makefile、CMakeLists.txt。
+3.1 编译不同平台修改文件的。 Makefile中PLATFORM_TYPE 以及 ProjectMetadata.cmake 中CMAKE_SYSTEM_PROCESSOR
