@@ -1,0 +1,69 @@
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/mark.vim"]
+	path = bundle/mark.vim
+	url = https://github.com/mbriggs/mark.vim.git
+[submodule "bundle/AuthorInfo"]
+	path = bundle/AuthorInfo
+	url = https://github.com/vim-scripts/AuthorInfo.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/TagHighlight"]
+	path = bundle/TagHighlight
+	url = https://github.com/vim-scripts/TagHighlight.git
+[submodule "bundle/a.vim"]
+	path = bundle/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = https://github.com/vim-scripts/Command-T.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.vim.git
+[submodule "bundle/pyflakes"]
+	path = bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
+[submodule "bundle/winmanager"]
+	path = bundle/winmanager
+	url = https://github.com/vim-scripts/winmanager
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "bundle/cscope"]
+	path = bundle/cscope
+	url = https://github.com/vim-scripts/cscope.vim
+[submodule "bundle/grep"]
+	path = bundle/grep
+	url = https://github.com/vim-scripts/grep.vim
+[submodule "bundle/OmniCppComplete"]
+	path = bundle/OmniCppComplete
+	url = https://github.com/vim-scripts/OmniCppComplete.git

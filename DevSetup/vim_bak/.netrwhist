@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/root/.vim'
+let g:netrw_dirhist_2='/root/duxj/cloudmanager_ha'
+let g:netrw_dirhist_3='/root/.vim'
+let g:netrw_dirhist_4='/root/duxj/cloudmanager_ha/conf'
+let g:netrw_dirhist_5='/root/duxj/python'
+let g:netrw_dirhist_6='/root/duxj/auth'
+let g:netrw_dirhist_7='/root/duxj/kvm'
+let g:netrw_dirhist_8='/root/.vim/bundle/a.vim'
